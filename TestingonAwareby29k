@@ -1,0 +1,24 @@
+Testing on Aware by 29k
+Found 18 defects: 3 major and 15 minor defects
+
+3 major:
+1. The system does not set the format of the password field to not be null.
+2. The system does not provide proper accessibility particularly in screen reader mode.
+3. App crashes on the second device when joining a session with the same account on multiple devices.
+
+11 minor:
+1. The system does not set the limit on the size of the username to 256 characters.
+2. The system does not set the format of the strength of input of the password field.
+3. The system does not display a proper error message telling users that the new password cannot exceed 4096 characters
+4. The system does not display a proper error message telling users that the email cannot exceed 255 characters
+5. The system does not display a proper error message telling users that the name cannot exceed 256 characters
+6. The system does not display a proper error message telling users that the description cannot exceed 1048462 characters
+7. The system does not prevent requesting multiple reset links in quick succession
+8. The system does not display a proper error message when users enter invalid email
+9. The system minimises enter password popup if the user tries to enter password when there is no password set to the account.
+10. The text displayed not fully changed for the Portuguese and Chinese language when the select that specific language as preferred language.
+11. No proper message/information saying that ‘No Live Sessions Planned’ is displayed.
+12. No error message given that the internet connection is off
+13. The greeting animation on the main page is taking a lot of time to finish.
+14. The system does clean SQL code when inserting potentially malicious content as review
+15. The system displays some unsupported characters with a Question Mark
